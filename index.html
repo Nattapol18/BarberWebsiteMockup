@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บาร์เบอร์ชิค - ร้านตัดผมสไตล์มืออาชีพ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Barberman</div>
+                <ul class="nav-menu">
+                    <li><a href="#home">หน้าแรก</a></li>
+                    <li><a href="#services">บริการ</a></li>
+                    <li><a href="#pricing">ราคา</a></li>
+                    <li><a href="#gallery">ผลงาน</a></li>
+                    <li><a href="#contact">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+   <!-- Hero Section with Slider -->
+<section id="home" class="hero">
+    <div class="slideshow-container">
+        <div class="slide active">
+            <img src="./img/images1.jpg" alt="สไลด์ภาพบาร์เบอร์ 1">
+        </div>
+        <div class="slide">
+            <img src="./img/images2.jpg" alt="สไลด์ภาพบาร์เบอร์ 2">
+        </div>
+        <div class="slide">
+            <img src="./img/images3.jpg" alt="สไลด์ภาพบาร์เบอร์ 3">
+        </div>
+    </div>
+    <div class="hero-content">
+        <h1>สัมผัสประสบการณ์การตัดผมระดับพรีเมียม</h1>
+        <p>บาร์เบอร์ชิคให้บริการตัดผมและเสริมสวยโดยช่างมืออาชีพ เรามุ่งมั่นสร้างความพึงพอใจสูงสุดให้ลูกค้าทุกท่าน</p>
+        <a href="#contact" class="btn">จองคิวเลย</a>
+    </div>
+    <div class="slider-controls">
+        <button class="slider-arrow prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+        </div>
+        <button class="slider-arrow next"><i class="fas fa-chevron-right"></i></button>
+    </div>
+</section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>บริการของเรา</h2>
+            </div>
+            <div class="services">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>ตัดผมชาย</h3>
+                    <p>บริการตัดผมชายโดยช่างมืออาชีพ พร้อมให้คำแนะนำทรงผมที่เหมาะกับรูปหน้าและไลฟ์สไตล์</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>สระ ไดร์</h3>
+                    <p>บริการสระผมด้วยแชมพูคุณภาพ พร้อมนวดศีรษะผ่อนคลาย และไดร์ผมให้เข้าทรง</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>ทำสีผม</h3>
+                    <p>บริการทำสีผมด้วยผลิตภัณฑ์นำเข้าคุณภาพสูง สีสวย ติดทน ไม่ทำร้ายเส้นผม</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>โกนหนวด</h3>
+                    <p>บริการโกนหนวดแบบดั้งเดิม ด้วยมีดโกนคมกริบ พร้อมทรีทเมนต์บำรุงผิวหน้า</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>อัตราค่าบริการ</h2>
+            </div>
+            <div class="pricing">
+                <div class="price-card">
+                    <h3>ตัดผมทั่วไป</h3>
+                    <div class="price">฿250</div>
+                    <ul class="price-features">
+                        <li>ตัดผม</li>
+                        <li>สระผม</li>
+                        <li>เซ็ทผม</li>
+                        <li>นวดคอ บ่า ไหล่ 5 นาที</li>
+                    </ul>
+                    <a href="#contact" class="btn">จองเลย</a>
+                </div>
+                <div class="price-card">
+                    <h3>แพ็กเกจพรีเมียม</h3>
+                    <div class="price">฿450</div>
+                    <ul class="price-features">
+                        <li>ตัดผม</li>
+                        <li>สระผม</li>
+                        <li>เซ็ทผม</li>
+                        <li>นวดศีรษะ</li>
+                        <li>นวดคอ บ่า ไหล่ 15 นาที</li>
+                        <li>โกนหนวด</li>
+                    </ul>
+                    <a href="#contact" class="btn">จองเลย</a>
+                </div>
+                <div class="price-card">
+                    <h3>ทำสีผม</h3>
+                    <div class="price">฿800+</div>
+                    <ul class="price-features">
+                        <li>ทำสีผม</li>
+                        <li>สระผม</li>
+                        <li>เซ็ทผม</li>
+                        <li>บำรุงผมด้วยทรีทเมนต์</li>
+                        <li>ทรีทเมนต์บำรุงหนังศีรษะ</li>
+                    </ul>
+                    <a href="#contact" class="btn">จองเลย</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>ทรงผมยอดนิยม</h2>
+            </div>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="/img/gal1.jpg" alt="ทรงผมชาย">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/gal2.jpg" alt="ทรงผมชาย">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/gal3.jpg" alt="ทรงผมชาย">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/gal4.jpg" alt="ทรงผมชาย">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/gal5.jpg" alt="ทรงผมชาย">
+                </div>
+                <div class="gallery-item">
+                    <img src="/img/gal6.jpg" alt="ทรงผมชาย">
+                </div>
+                
+            </div>
+        </div>
+        <a href="/haricut.html" class="see-more">ดูเพิ่มเติม</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>ติดต่อเรา</h2>
+            </div>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>ที่อยู่</h3>
+                    <p>123 ถนนสุขุมวิท แขวงคลองตัน เขตคลองเตย กรุงเทพฯ 10110</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>โทรศัพท์</h3>
+                    <p>02-123-4567</p>
+                    <p>084-567-8901</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-clock"></i>
+                    <h3>เวลาทำการ</h3>
+                    <p>จันทร์ - เสาร์: 10:00 - 20:00</p>
+                    <p>อาทิตย์: 10:00 - 18:00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Barberman</div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-line"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 บาร์เบอร์แมน.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>

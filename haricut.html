@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ทรงผมแนะนำ - Barberman</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Barberman</div>
+                <ul class="nav-menu">
+                    <li><a href="index.html#home">หน้าแรก</a></li>
+                    <li><a href="index.html#services">บริการ</a></li>
+                    <li><a href="index.html#pricing">ราคา</a></li>
+                    <li><a href="index.html#gallery">ผลงาน</a></li>
+                    <li><a href="index.html#contact">ติดต่อ</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <h2>ค้นหาทรงผมที่เหมาะกับคุณ</h2>
+                <div class="search-box">
+                    <input type="text" id="searchInput" class="search-input" placeholder="ค้นหาทรงผม...">
+                    <button class="search-btn" onclick="searchHaircuts()">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <div class="filter-tags">
+                    <span class="filter-tag active" data-tag="all">ทั้งหมด</span>
+                    <span class="filter-tag" data-tag="ผมสั้น">ผมสั้น</span>
+                    <span class="filter-tag" data-tag="ผมกลาง">ผมกลาง</span>
+                    <span class="filter-tag" data-tag="ผมยาว">ผมยาว</span>
+                    <span class="filter-tag" data-tag="ผมลอน">ผมลอน</span>
+                    <span class="filter-tag" data-tag="ทรงสุภาพ">ทรงสุภาพ</span>
+                    <span class="filter-tag" data-tag="สไตล์เกาหลี">สไตล์เกาหลี</span>
+                    <span class="filter-tag" data-tag="สไตล์ญี่ปุ่น">สไตล์ญี่ปุ่น</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>ทรงผมแนะนำ</h2>
+            </div>
+            
+            <div id="haircuts-gallery" class="gallery">
+                <!-- Haircut cards will be dynamically populated here -->
+            </div>
+            
+            <!-- No Results Message (initially hidden) -->
+            <div id="no-results" class="no-results" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h3>ไม่พบทรงผมที่ค้นหา</h3>
+                <p>ลองค้นหาด้วยคำอื่น หรือเลือกหมวดหมู่ทรงผมใหม่</p>
+            </div>
+            
+            <div class="back-to-home">
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-arrow-left"></i> กลับไปหน้าหลัก
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Barberman</div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-line"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; 2025 บาร์เบอร์แมน.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
